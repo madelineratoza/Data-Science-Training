@@ -1,0 +1,48 @@
+---
+title: "Excel and R 101"
+author: "Madeline Ratoza"
+format: html
+theme: darkly
+---
+
+## **Basics to Get Started: Excel and R**
+
+Excel and R play different but complementary roles in a reproducible data workflow.
+
+**Excel** is often the entry point for data collection and initial review. It is useful for entering data, performing quick checks, and sharing information in a familiar format. When structured carefully, Excel files can function as reliable sources of raw data.
+
+**R** is used to perform analysis, summarization, and visualization in a way that is transparent and repeatable. Rather than relying on manual steps, R uses code to document exactly how data are filtered, grouped, summarized, and displayed. This allows the same analysis to be run again with new data, such as a new term or academic year.
+
+Getting started does not require advanced technical setup. A basic workflow includes:
+
+-   A well-structured Excel file that behaves like a data frame
+
+-   An R environment for running analysis code
+
+-   A clear separation between raw data and analysis outputs
+
+In this guide, Excel is treated as a data source rather than the primary analysis tool. R is introduced gradually as a way to make common programmatic questions easier to answer, easier to update, and easier to explain to others.
+
+The goal is not to replace Excel entirely, but to use each tool where it is most effective.
+
++-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| Excel 101                                                                                                   | R 101                                                                                                    |
++-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| When Excel is used as a data source for analysis, the goal is to ensure the file behaves like a data frame. | R is used to read, analyze, and summarize the data prepared in Excel.                                    |
+|                                                                                                             |                                                                                                          |
+| -   Use a clear, descriptive file name                                                                      | -   Set a working directory so R knows where to find your data files                                     |
+|                                                                                                             |                                                                                                          |
+| -   Store the file in a consistent folder so it can be easily accessed from the R environment               | -   Import the Excel file as a data frame                                                                |
+|                                                                                                             |                                                                                                          |
+| -   Keep one header row with concise, meaningful column names                                               | -   Use scripts to document data cleaning and analysis steps                                             |
+|                                                                                                             |                                                                                                          |
+| -   Avoid merged cells, blank rows, or blank columns                                                        | -   Separate raw data from analysis outputs                                                              |
+|                                                                                                             |                                                                                                          |
+| -   Do not use conditional formatting or color to encode meaning                                            | -   Rerun the same code when new data are added rather than recreating analyses                          |
+|                                                                                                             |                                                                                                          |
+| -   Ensure each row represents one observation (for example, one student, one exam, or one cohort)          | This setup allows the same analysis to be repeated across terms or years with minimal additional effort. |
+|                                                                                                             |                                                                                                          |
+| -   Ensure each column represents one variable (for example, term, pathway, campus, or score)               |                                                                                                          |
+|                                                                                                             |                                                                                                          |
+| These practices make the data easier to import, analyze, and reuse without manual cleanup.                  |                                                                                                          |
++-------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+

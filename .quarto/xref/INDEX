@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "0cc129bf"
+  },
+  "page2.qmd": {
+    "page2.html": "c8b3a88c"
+  },
+  "From Excel to Reproducible Workflows.qmd": {
+    "From Excel to Reproducible Workflows.html": "9d9ea195"
+  },
+  "What is Data Science.qmd": {
+    "What is Data Science.html": "2c9885af"
+  },
+  "Basics Excel and R.qmd": {
+    "Basics Excel and R.html": "6efefd76"
+  },
+  "Resources.qmd": {
+    "Resources.html": "3f91b0d8"
+  },
+  "What is Data Science?.qmd": {
+    "What is Data Science?.html": "26322326"
+  }
+}

@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "From Excel to Reproducible Workflows"
+  sidebar:
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: What is Data Science.qmd
+        text: What is Data Science?
+      - href: Basics Excel and R.qmd
+        text: Excel vs. R 101
+      - href: Resources.qmd
+        text: Resources
+
+format:
+  html:
+    theme: darkly
+    toc: true

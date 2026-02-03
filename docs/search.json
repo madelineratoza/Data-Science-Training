@@ -1,0 +1,213 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "From Excel to Reproducible Workflows",
+    "section": "",
+    "text": "Introduction\nThis guide is designed for educators, researchers, and administrators who regularly work with data and want to improve the accuracy, efficiency, and reproducibility of their work. It introduces data science tools and coding-based workflows in an accessible way, without assuming prior programming experience.\nThis is not a guide about becoming a “data scientist.” Instead, it focuses on building on the data practices you already use and showing how those practices can be strengthened through more transparent and sustainable workflows.\n\nPurpose & Training objectives\nThe purpose of this guide is to support individuals working with academic programmatic and assessment data in developing accurate, reproducible, and transparent data workflows using code-based tools. By introducing foundational data science concepts and the R programming language in an accessible way, this guide aims to strengthen institutional data practices while supporting the development of transferable analytical skills.\n\nObjective 1Objective 2Objective 3\n\n\nUnderstand the basic components of a data science environment.\n\n\nUse basic R code to summarize academic program and assessment data.\n\n\nExplain how code-based workflows improve reproducibility and efficiency.\n\n\n\n\n\nTarget Audience\nThis guide is intended for individuals working in academic institutions who regularly engage with programmatic, assessment, curricular, or institutional data and are interested in improving how that work is conducted.\nThis includes faculty, staff, administrators, and trainees who use data to support educational programs and want their analyses to be more accurate, reproducible, and efficient.\nThis guide is also designed for individuals who want to build transferable data skills by contributing to program-level work. The workflows and approaches presented here can be used to support academic programs while also providing experience that is applicable to broader research, evaluation, and professional contexts.\n\n\nPrerequisites\nYou do not need to be an expert in Excel or have any prior coding experience. You do need to be comfortable using a computer, familiar with basic Excel functions, and open to learning new tools and approaches.\nThis is not an Excel 101 course. Instead, it focuses on how and why to move beyond Excel and SPSS for more accurate, reproducible, and sustainable data workflows.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "R is the programming language that performs the data analysis. It does the actual work of reading data, running calculations, and creating summaries and visualizations. R is free and open source.\nRStudio is a user-friendly interface that makes working with R easier. It provides a space to write and run code, view data, and see results all in one place. RStudio does not replace R; it runs on top of it.\nBoth are needed. R provides the analytical engine, and RStudio provides the environment that makes using R accessible.\nTo get started:\n\nDownload and install R from the Comprehensive R Archive Network (CRAN)\nDownload and install RStudio Desktop after R is installed\n\nOnce installed, RStudio will automatically connect to R, allowing you to begin working with data without additional setup.\n\n\n\nDownload R\nDownload R Studio",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "Resources.html#download-r-and-r-studio",
+    "href": "Resources.html#download-r-and-r-studio",
+    "title": "Resources",
+    "section": "",
+    "text": "R is the programming language that performs the data analysis. It does the actual work of reading data, running calculations, and creating summaries and visualizations. R is free and open source.\nRStudio is a user-friendly interface that makes working with R easier. It provides a space to write and run code, view data, and see results all in one place. RStudio does not replace R; it runs on top of it.\nBoth are needed. R provides the analytical engine, and RStudio provides the environment that makes using R accessible.\nTo get started:\n\nDownload and install R from the Comprehensive R Archive Network (CRAN)\nDownload and install RStudio Desktop after R is installed\n\nOnce installed, RStudio will automatically connect to R, allowing you to begin working with data without additional setup.\n\n\n\nDownload R\nDownload R Studio",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "Resources.html#github",
+    "href": "Resources.html#github",
+    "title": "Resources",
+    "section": "GitHub",
+    "text": "GitHub\nGitHub is a platform used to store, share, and collaborate on code. It allows you to keep track of changes to your analysis scripts, revisit earlier versions, and share your work with others in a clear and organized way.\nYou do not need to use GitHub to get started with R or to follow this guide. However, as your comfort with coding grows, GitHub becomes a useful tool for sharing reproducible workflows, collaborating with colleagues, and maintaining a record of how analyses evolve over time.\nIn this guide, GitHub is introduced as a future option rather than a requirement. Learning to write clear, well-documented code comes first. Version control and sharing tools can be added gradually as they become useful.\nGet Started with GitHub",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "page2.html",
+    "href": "page2.html",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Data science is often described as a combination of mathematics, statistics, programming, advanced analytics, artificial intelligence, and machine learning, combined with subject matter expertise to uncover actionable insights.\nWhile this definition is technically accurate, it is not always helpful.\nFor most people working in education, healthcare, or research, the more useful question is not: “What is data science?”\nBut rather:\n“What kinds of skills are needed to work with data well?”"
+  },
+  {
+    "objectID": "page2.html#data-skill-set-definitions",
+    "href": "page2.html#data-skill-set-definitions",
+    "title": "What is Data Science?",
+    "section": "Data Skill Set Definitions",
+    "text": "Data Skill Set Definitions\nData science is a broad ecosystem of skills. No one person has all of them, and most roles overlap in practice. It is helpful to think in terms of types of work, not job titles.\n\n\n\n\n\n\n\n\nData Engineering:\nData Science:\nData Analysis:\n\n\nThis work focuses on how data are stored, structured, and maintained. It includes managing hardware and storage systems, as well as writing code to handle messy or unstructured data.\nThis work often focuses on software development, large-scale datasets, and cloud-based systems. It frequently involves advanced modeling and machine learning.\nThis is where many educators and researchers already operate. It includes cleaning and organizing data, analyzing patterns and outcomes, creating visualizations, and communicating results clearly in writing and presentations."
+  },
+  {
+    "objectID": "page2.html#big-data-is-not-the-point",
+    "href": "page2.html#big-data-is-not-the-point",
+    "title": "What is Data Science?",
+    "section": "“Big Data” is not the point",
+    "text": "“Big Data” is not the point\nThe term “big data” is often used to describe massive datasets such as search engine queries or real-time commercial analytics. Most people working in academic, educational, or clinical settings will never interact with data at this scale.\nHowever, data science tools are still valuable even when datasets are small.\nEven if all your data fits on a single screen, modern data workflows can reduce errors, improve consistency, make analyses faster, and allow others to understand what was done."
+  },
+  {
+    "objectID": "page2.html#the-data-ecosystem-problem",
+    "href": "page2.html#the-data-ecosystem-problem",
+    "title": "What is Data Science?",
+    "section": "The Data Ecosystem Problem",
+    "text": "The Data Ecosystem Problem\nData rarely live in one place forever. Over the life of a project, data may be collected in one system, cleaned in another, analyzed in multiple versions, revised in response to feedback, and shared with collaborators or reviewers.\nEach transition creates opportunities for data loss, version confusion, and error.\nReproducible workflows help by creating a clear, documented path from raw data to final results."
+  },
+  {
+    "objectID": "page2.html#reproducibility-controlling-what-we-can",
+    "href": "page2.html#reproducibility-controlling-what-we-can",
+    "title": "What is Data Science?",
+    "section": "Reproducibility: Controlling What We Can",
+    "text": "Reproducibility: Controlling What We Can\nReproducibility means that the same input data and the same analysis steps produce the same output every time.\nIn practice, this means data are preserved in their original form, analysis steps are documented, and results can be regenerated by re-running the analysis.\nWhile we cannot control all sources of variation, we can control whether our workflows are reproducible.\nWHAT THIS MEANS FOR EXCEL USERS:\nExcel is a powerful and familiar tool, and it often plays an important role in data workflows. Moving toward reproducible workflows does not mean abandoning Excel immediately.\nInstead, it means being intentional about how data are entered and edited, reducing manual undocumented steps, creating clear transitions between data cleaning, analysis, and reporting, and using tools that allow analyses to be repeated without starting over."
+  },
+  {
+    "objectID": "page2.html#basic-concepts-terminology",
+    "href": "page2.html#basic-concepts-terminology",
+    "title": "What is Data Science?",
+    "section": "Basic concepts & terminology",
+    "text": "Basic concepts & terminology\n\nData FrameVariableData labelsLogicCodeReproducibility\n\n\nA data frame is a table of data where each row represents an observation (such as a student, course, or exam) and each column represents a variable. Data frames are the primary way data are organized in R and are similar in structure to Excel spreadsheets when those spreadsheets are used consistently.\nHowever, many common Excel formatting practices prevent a sheet from functioning as a true data frame. Merged cells, blank rows or columns, embedded totals, and missing values used for visual spacing all break the row-by-column structure that data analysis tools rely on. While these formats may look clear to a human reader, they make it difficult for software to reliably interpret the data.\nThis guide emphasizes structuring data so that it behaves as a data frame, even when it is created or viewed in Excel.\n\n\nA variable is a single column in a dataset that contains a specific type of information, such as a score, term, pathway, or outcome.\n\n\nData labels are names or categories used to describe variables or values within a dataset. Clear, consistent labels make it easier to understand what the data represent and reduce the risk of misinterpretation during analysis.\nIn more complex projects, data labels are often supported by a data dictionary. A data dictionary is a separate document that defines each variable, explains how values are coded, and provides context for how the data were collected or generated. While data dictionaries are not required for every project, they are especially helpful when datasets are shared, revisited over time, or used by multiple people.\nThis guide introduces simple labeling practices and shows how even lightweight documentation can improve clarity and reproducibility.\n\n\nLogic refers to the rules used to make decisions within data analysis. These rules determine which data are included, excluded, grouped, or summarized based on specific conditions.\nIn academic program and assessment work, logic is often used to answer questions such as which students belong to a specific cohort, which exam scores fall within a given term, or which outcomes meet a defined threshold. For example, logic can be used to select exam grades from a particular term, group those grades by cohort, and then summarize or visualize the results in a chart.\nUsing explicit logical rules in code makes these decisions transparent and repeatable. Instead of manually filtering or sorting data, the logic used to create a figure or summary is documented and can be applied consistently across terms or updated datasets.\n\n\nCode is a written set of instructions that tells a computer exactly what steps to perform on data. These instructions can include importing data, selecting specific values, performing calculations, creating summaries, and generating visualizations.\nThere are many programming languages used for data analysis, each with different strengths. Common examples include R, Python, and SQL. No single language is “best” in all situations, and learning one language makes it easier to learn others over time.\nFor the purposes of this guide, R is used because it is free, widely used in academic and research settings, and well suited for data analysis and visualization. R allows analysis steps to be written clearly and run again on updated data, supporting reproducible workflows without requiring advanced programming experience.\nThis guide focuses on using small, readable pieces of code to document data analysis decisions rather than on complex or highly technical programming.\n\n\nReproducibility means that the same data and the same analysis steps produce the same results every time the analysis is run. In a reproducible workflow, data are preserved in their original form, analysis steps are documented using code, and results can be regenerated simply by re-running the analysis.\nFor academic programs that review data term-by-term or annually, reproducibility is especially powerful because it improves efficiency over time. Once an analysis workflow is written, the same code can be reused with new data each term or year, eliminating the need to rebuild tables, charts, or reports from scratch. This reduces manual effort, minimizes errors introduced by repeated copying or filtering, and ensures that comparisons across time are based on consistent methods.\nReproducible workflows also make it easier to respond to new questions or reporting requests. Because the logic of the analysis is explicit, adjustments can be made quickly without undoing prior work. Over time, this allows programs to shift from reactive data processing to more intentional, longitudinal analysis."
+  },
+  {
+    "objectID": "What is Data Science?.html",
+    "href": "What is Data Science?.html",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Data science is often described as a combination of mathematics, statistics, programming, advanced analytics, artificial intelligence, and machine learning, combined with subject matter expertise to uncover actionable insights.\nWhile this definition is technically accurate, it is not always helpful.\nFor most people working in education, healthcare, or research, the more useful question is not: “What is data science?”\nBut rather:\n“What kinds of skills are needed to work with data well?”"
+  },
+  {
+    "objectID": "What is Data Science?.html#data-skill-set-definitions",
+    "href": "What is Data Science?.html#data-skill-set-definitions",
+    "title": "What is Data Science?",
+    "section": "Data Skill Set Definitions",
+    "text": "Data Skill Set Definitions\nData science is a broad ecosystem of skills. No one person has all of them, and most roles overlap in practice. It is helpful to think in terms of types of work, not job titles.\n\n\n\n\n\n\n\n\nData Engineering:\nData Science:\nData Analysis:\n\n\nThis work focuses on how data are stored, structured, and maintained. It includes managing hardware and storage systems, as well as writing code to handle messy or unstructured data.\nThis work often focuses on software development, large-scale datasets, and cloud-based systems. It frequently involves advanced modeling and machine learning.\nThis is where many educators and researchers already operate. It includes cleaning and organizing data, analyzing patterns and outcomes, creating visualizations, and communicating results clearly in writing and presentations."
+  },
+  {
+    "objectID": "What is Data Science?.html#big-data-is-not-the-point",
+    "href": "What is Data Science?.html#big-data-is-not-the-point",
+    "title": "What is Data Science?",
+    "section": "“Big Data” is not the point",
+    "text": "“Big Data” is not the point\nThe term “big data” is often used to describe massive datasets such as search engine queries or real-time commercial analytics. Most people working in academic, educational, or clinical settings will never interact with data at this scale.\nHowever, data science tools are still valuable even when datasets are small.\nEven if all your data fits on a single screen, modern data workflows can reduce errors, improve consistency, make analyses faster, and allow others to understand what was done."
+  },
+  {
+    "objectID": "What is Data Science?.html#the-data-ecosystem-problem",
+    "href": "What is Data Science?.html#the-data-ecosystem-problem",
+    "title": "What is Data Science?",
+    "section": "The Data Ecosystem Problem",
+    "text": "The Data Ecosystem Problem\nData rarely live in one place forever. Over the life of a project, data may be collected in one system, cleaned in another, analyzed in multiple versions, revised in response to feedback, and shared with collaborators or reviewers.\nEach transition creates opportunities for data loss, version confusion, and error.\nReproducible workflows help by creating a clear, documented path from raw data to final results."
+  },
+  {
+    "objectID": "What is Data Science?.html#reproducibility-controlling-what-we-can",
+    "href": "What is Data Science?.html#reproducibility-controlling-what-we-can",
+    "title": "What is Data Science?",
+    "section": "Reproducibility: Controlling What We Can",
+    "text": "Reproducibility: Controlling What We Can\nReproducibility means that the same input data and the same analysis steps produce the same output every time.\nIn practice, this means data are preserved in their original form, analysis steps are documented, and results can be regenerated by re-running the analysis.\nWhile we cannot control all sources of variation, we can control whether our workflows are reproducible.\nWHAT THIS MEANS FOR EXCEL USERS:\nExcel is a powerful and familiar tool, and it often plays an important role in data workflows. Moving toward reproducible workflows does not mean abandoning Excel immediately.\nInstead, it means being intentional about how data are entered and edited, reducing manual undocumented steps, creating clear transitions between data cleaning, analysis, and reporting, and using tools that allow analyses to be repeated without starting over."
+  },
+  {
+    "objectID": "What is Data Science?.html#basic-concepts-terminology",
+    "href": "What is Data Science?.html#basic-concepts-terminology",
+    "title": "What is Data Science?",
+    "section": "Basic concepts & terminology",
+    "text": "Basic concepts & terminology\n\nData FrameVariableData labelsLogicCodeReproducibility\n\n\nA data frame is a table of data where each row represents an observation (such as a student, course, or exam) and each column represents a variable. Data frames are the primary way data are organized in R and are similar in structure to Excel spreadsheets when those spreadsheets are used consistently.\nHowever, many common Excel formatting practices prevent a sheet from functioning as a true data frame. Merged cells, blank rows or columns, embedded totals, and missing values used for visual spacing all break the row-by-column structure that data analysis tools rely on. While these formats may look clear to a human reader, they make it difficult for software to reliably interpret the data.\nThis guide emphasizes structuring data so that it behaves as a data frame, even when it is created or viewed in Excel.\n\n\nA variable is a single column in a dataset that contains a specific type of information, such as a score, term, pathway, or outcome.\n\n\nData labels are names or categories used to describe variables or values within a dataset. Clear, consistent labels make it easier to understand what the data represent and reduce the risk of misinterpretation during analysis.\nIn more complex projects, data labels are often supported by a data dictionary. A data dictionary is a separate document that defines each variable, explains how values are coded, and provides context for how the data were collected or generated. While data dictionaries are not required for every project, they are especially helpful when datasets are shared, revisited over time, or used by multiple people.\nThis guide introduces simple labeling practices and shows how even lightweight documentation can improve clarity and reproducibility.\n\n\nLogic refers to the rules used to make decisions within data analysis. These rules determine which data are included, excluded, grouped, or summarized based on specific conditions.\nIn academic program and assessment work, logic is often used to answer questions such as which students belong to a specific cohort, which exam scores fall within a given term, or which outcomes meet a defined threshold. For example, logic can be used to select exam grades from a particular term, group those grades by cohort, and then summarize or visualize the results in a chart.\nUsing explicit logical rules in code makes these decisions transparent and repeatable. Instead of manually filtering or sorting data, the logic used to create a figure or summary is documented and can be applied consistently across terms or updated datasets.\n\n\nCode is a written set of instructions that tells a computer exactly what steps to perform on data. These instructions can include importing data, selecting specific values, performing calculations, creating summaries, and generating visualizations.\nThere are many programming languages used for data analysis, each with different strengths. Common examples include R, Python, and SQL. No single language is “best” in all situations, and learning one language makes it easier to learn others over time.\nFor the purposes of this guide, R is used because it is free, widely used in academic and research settings, and well suited for data analysis and visualization. R allows analysis steps to be written clearly and run again on updated data, supporting reproducible workflows without requiring advanced programming experience.\nThis guide focuses on using small, readable pieces of code to document data analysis decisions rather than on complex or highly technical programming.\n\n\nReproducibility means that the same data and the same analysis steps produce the same results every time the analysis is run. In a reproducible workflow, data are preserved in their original form, analysis steps are documented using code, and results can be regenerated simply by re-running the analysis.\nFor academic programs that review data term-by-term or annually, reproducibility is especially powerful because it improves efficiency over time. Once an analysis workflow is written, the same code can be reused with new data each term or year, eliminating the need to rebuild tables, charts, or reports from scratch. This reduces manual effort, minimizes errors introduced by repeated copying or filtering, and ensures that comparisons across time are based on consistent methods.\nReproducible workflows also make it easier to respond to new questions or reporting requests. Because the logic of the analysis is explicit, adjustments can be made quickly without undoing prior work. Over time, this allows programs to shift from reactive data processing to more intentional, longitudinal analysis."
+  },
+  {
+    "objectID": "Basics Excel and R.html",
+    "href": "Basics Excel and R.html",
+    "title": "Excel and R 101",
+    "section": "",
+    "text": "Excel and R play different but complementary roles in a reproducible data workflow.\nExcel is often the entry point for data collection and initial review. It is useful for entering data, performing quick checks, and sharing information in a familiar format. When structured carefully, Excel files can function as reliable sources of raw data.\nR is used to perform analysis, summarization, and visualization in a way that is transparent and repeatable. Rather than relying on manual steps, R uses code to document exactly how data are filtered, grouped, summarized, and displayed. This allows the same analysis to be run again with new data, such as a new term or academic year.\nGetting started does not require advanced technical setup. A basic workflow includes:\n\nA well-structured Excel file that behaves like a data frame\nAn R environment for running analysis code\nA clear separation between raw data and analysis outputs\n\nIn this guide, Excel is treated as a data source rather than the primary analysis tool. R is introduced gradually as a way to make common programmatic questions easier to answer, easier to update, and easier to explain to others.\nThe goal is not to replace Excel entirely, but to use each tool where it is most effective.\n\n\n\n\n\n\n\nExcel 101\nR 101\n\n\nWhen Excel is used as a data source for analysis, the goal is to ensure the file behaves like a data frame.\n\nUse a clear, descriptive file name\nStore the file in a consistent folder so it can be easily accessed from the R environment\nKeep one header row with concise, meaningful column names\nAvoid merged cells, blank rows, or blank columns\nDo not use conditional formatting or color to encode meaning\nEnsure each row represents one observation (for example, one student, one exam, or one cohort)\nEnsure each column represents one variable (for example, term, pathway, campus, or score)\n\nThese practices make the data easier to import, analyze, and reuse without manual cleanup.\nR is used to read, analyze, and summarize the data prepared in Excel.\n\nSet a working directory so R knows where to find your data files\nImport the Excel file as a data frame\nUse scripts to document data cleaning and analysis steps\nSeparate raw data from analysis outputs\nRerun the same code when new data are added rather than recreating analyses\n\nThis setup allows the same analysis to be repeated across terms or years with minimal additional effort.",
+    "crumbs": [
+      "Excel vs. R 101"
+    ]
+  },
+  {
+    "objectID": "Basics Excel and R.html#basics-to-get-started-excel-and-r",
+    "href": "Basics Excel and R.html#basics-to-get-started-excel-and-r",
+    "title": "Excel and R 101",
+    "section": "",
+    "text": "Excel and R play different but complementary roles in a reproducible data workflow.\nExcel is often the entry point for data collection and initial review. It is useful for entering data, performing quick checks, and sharing information in a familiar format. When structured carefully, Excel files can function as reliable sources of raw data.\nR is used to perform analysis, summarization, and visualization in a way that is transparent and repeatable. Rather than relying on manual steps, R uses code to document exactly how data are filtered, grouped, summarized, and displayed. This allows the same analysis to be run again with new data, such as a new term or academic year.\nGetting started does not require advanced technical setup. A basic workflow includes:\n\nA well-structured Excel file that behaves like a data frame\nAn R environment for running analysis code\nA clear separation between raw data and analysis outputs\n\nIn this guide, Excel is treated as a data source rather than the primary analysis tool. R is introduced gradually as a way to make common programmatic questions easier to answer, easier to update, and easier to explain to others.\nThe goal is not to replace Excel entirely, but to use each tool where it is most effective.\n\n\n\n\n\n\n\nExcel 101\nR 101\n\n\nWhen Excel is used as a data source for analysis, the goal is to ensure the file behaves like a data frame.\n\nUse a clear, descriptive file name\nStore the file in a consistent folder so it can be easily accessed from the R environment\nKeep one header row with concise, meaningful column names\nAvoid merged cells, blank rows, or blank columns\nDo not use conditional formatting or color to encode meaning\nEnsure each row represents one observation (for example, one student, one exam, or one cohort)\nEnsure each column represents one variable (for example, term, pathway, campus, or score)\n\nThese practices make the data easier to import, analyze, and reuse without manual cleanup.\nR is used to read, analyze, and summarize the data prepared in Excel.\n\nSet a working directory so R knows where to find your data files\nImport the Excel file as a data frame\nUse scripts to document data cleaning and analysis steps\nSeparate raw data from analysis outputs\nRerun the same code when new data are added rather than recreating analyses\n\nThis setup allows the same analysis to be repeated across terms or years with minimal additional effort.",
+    "crumbs": [
+      "Excel vs. R 101"
+    ]
+  },
+  {
+    "objectID": "What is Data Science.html",
+    "href": "What is Data Science.html",
+    "title": "What is Data Science?",
+    "section": "",
+    "text": "Data science is often described as a combination of mathematics, statistics, programming, advanced analytics, artificial intelligence, and machine learning, combined with subject matter expertise to uncover actionable insights.\nWhile this definition is technically accurate, it is not always helpful.\nFor most people working in education, healthcare, or research, the more useful question is not: “What is data science?”\nBut rather:\n“What kinds of skills are needed to work with data well?”",
+    "crumbs": [
+      "What is Data Science?"
+    ]
+  },
+  {
+    "objectID": "What is Data Science.html#data-skill-set-definitions",
+    "href": "What is Data Science.html#data-skill-set-definitions",
+    "title": "What is Data Science?",
+    "section": "Data Skill Set Definitions",
+    "text": "Data Skill Set Definitions\nData science is a broad ecosystem of skills. No one person has all of them, and most roles overlap in practice. It is helpful to think in terms of types of work, not job titles.\n\n\n\n\n\n\n\n\nData Engineering:\nData Science:\nData Analysis:\n\n\nThis work focuses on how data are stored, structured, and maintained. It includes managing hardware and storage systems, as well as writing code to handle messy or unstructured data.\nThis work often focuses on software development, large-scale datasets, and cloud-based systems. It frequently involves advanced modeling and machine learning.\nThis is where many educators and researchers already operate. It includes cleaning and organizing data, analyzing patterns and outcomes, creating visualizations, and communicating results clearly in writing and presentations.",
+    "crumbs": [
+      "What is Data Science?"
+    ]
+  },
+  {
+    "objectID": "What is Data Science.html#big-data-is-not-the-point",
+    "href": "What is Data Science.html#big-data-is-not-the-point",
+    "title": "What is Data Science?",
+    "section": "“Big Data” is not the point",
+    "text": "“Big Data” is not the point\nThe term “big data” is often used to describe massive datasets such as search engine queries or real-time commercial analytics. Most people working in academic, educational, or clinical settings will never interact with data at this scale.\nHowever, data science tools are still valuable even when datasets are small.\nEven if all your data fits on a single screen, modern data workflows can reduce errors, improve consistency, make analyses faster, and allow others to understand what was done.",
+    "crumbs": [
+      "What is Data Science?"
+    ]
+  },
+  {
+    "objectID": "What is Data Science.html#the-data-ecosystem-problem",
+    "href": "What is Data Science.html#the-data-ecosystem-problem",
+    "title": "What is Data Science?",
+    "section": "The Data Ecosystem Problem",
+    "text": "The Data Ecosystem Problem\nData rarely live in one place forever. Over the life of a project, data may be collected in one system, cleaned in another, analyzed in multiple versions, revised in response to feedback, and shared with collaborators or reviewers.\nEach transition creates opportunities for data loss, version confusion, and error.\nReproducible workflows help by creating a clear, documented path from raw data to final results.",
+    "crumbs": [
+      "What is Data Science?"
+    ]
+  },
+  {
+    "objectID": "What is Data Science.html#reproducibility-controlling-what-we-can",
+    "href": "What is Data Science.html#reproducibility-controlling-what-we-can",
+    "title": "What is Data Science?",
+    "section": "Reproducibility: Controlling What We Can",
+    "text": "Reproducibility: Controlling What We Can\nReproducibility means that the same input data and the same analysis steps produce the same output every time.\nIn practice, this means data are preserved in their original form, analysis steps are documented, and results can be regenerated by re-running the analysis.\nWhile we cannot control all sources of variation, we can control whether our workflows are reproducible.\nWHAT THIS MEANS FOR EXCEL USERS:\nExcel is a powerful and familiar tool, and it often plays an important role in data workflows. Moving toward reproducible workflows does not mean abandoning Excel immediately.\nInstead, it means being intentional about how data are entered and edited, reducing manual undocumented steps, creating clear transitions between data cleaning, analysis, and reporting, and using tools that allow analyses to be repeated without starting over.",
+    "crumbs": [
+      "What is Data Science?"
+    ]
+  },
+  {
+    "objectID": "What is Data Science.html#basic-concepts-terminology",
+    "href": "What is Data Science.html#basic-concepts-terminology",
+    "title": "What is Data Science?",
+    "section": "Basic concepts & terminology",
+    "text": "Basic concepts & terminology\n\nData FrameVariableData labelsLogicCodeReproducibility\n\n\nA data frame is a table of data where each row represents an observation (such as a student, course, or exam) and each column represents a variable. Data frames are the primary way data are organized in R and are similar in structure to Excel spreadsheets when those spreadsheets are used consistently.\nHowever, many common Excel formatting practices prevent a sheet from functioning as a true data frame. Merged cells, blank rows or columns, embedded totals, and missing values used for visual spacing all break the row-by-column structure that data analysis tools rely on. While these formats may look clear to a human reader, they make it difficult for software to reliably interpret the data.\nThis guide emphasizes structuring data so that it behaves as a data frame, even when it is created or viewed in Excel.\n\n\nA variable is a single column in a dataset that contains a specific type of information, such as a score, term, pathway, or outcome.\n\n\nData labels are names or categories used to describe variables or values within a dataset. Clear, consistent labels make it easier to understand what the data represent and reduce the risk of misinterpretation during analysis.\nIn more complex projects, data labels are often supported by a data dictionary. A data dictionary is a separate document that defines each variable, explains how values are coded, and provides context for how the data were collected or generated. While data dictionaries are not required for every project, they are especially helpful when datasets are shared, revisited over time, or used by multiple people.\nThis guide introduces simple labeling practices and shows how even lightweight documentation can improve clarity and reproducibility.\n\n\nLogic refers to the rules used to make decisions within data analysis. These rules determine which data are included, excluded, grouped, or summarized based on specific conditions.\nIn academic program and assessment work, logic is often used to answer questions such as which students belong to a specific cohort, which exam scores fall within a given term, or which outcomes meet a defined threshold. For example, logic can be used to select exam grades from a particular term, group those grades by cohort, and then summarize or visualize the results in a chart.\nUsing explicit logical rules in code makes these decisions transparent and repeatable. Instead of manually filtering or sorting data, the logic used to create a figure or summary is documented and can be applied consistently across terms or updated datasets.\n\n\nCode is a written set of instructions that tells a computer exactly what steps to perform on data. These instructions can include importing data, selecting specific values, performing calculations, creating summaries, and generating visualizations.\nThere are many programming languages used for data analysis, each with different strengths. Common examples include R, Python, and SQL. No single language is “best” in all situations, and learning one language makes it easier to learn others over time.\nFor the purposes of this guide, R is used because it is free, widely used in academic and research settings, and well suited for data analysis and visualization. R allows analysis steps to be written clearly and run again on updated data, supporting reproducible workflows without requiring advanced programming experience.\nThis guide focuses on using small, readable pieces of code to document data analysis decisions rather than on complex or highly technical programming.\n\n\nReproducibility means that the same data and the same analysis steps produce the same results every time the analysis is run. In a reproducible workflow, data are preserved in their original form, analysis steps are documented using code, and results can be regenerated simply by re-running the analysis.\nFor academic programs that review data term-by-term or annually, reproducibility is especially powerful because it improves efficiency over time. Once an analysis workflow is written, the same code can be reused with new data each term or year, eliminating the need to rebuild tables, charts, or reports from scratch. This reduces manual effort, minimizes errors introduced by repeated copying or filtering, and ensures that comparisons across time are based on consistent methods.\nReproducible workflows also make it easier to respond to new questions or reporting requests. Because the logic of the analysis is explicit, adjustments can be made quickly without undoing prior work. Over time, this allows programs to shift from reactive data processing to more intentional, longitudinal analysis.",
+    "crumbs": [
+      "What is Data Science?"
+    ]
+  },
+  {
+    "objectID": "From Excel to Reproducible Workflows.html",
+    "href": "From Excel to Reproducible Workflows.html",
+    "title": "From Excel to Reproducible Workflows",
+    "section": "",
+    "text": "Introduction\nThis guide is designed for educators, researchers, and administrators who regularly work with data and want to improve the accuracy, efficiency, and reproducibility of their work. It introduces data science tools and coding-based workflows in an accessible way, without assuming prior programming experience.\nThis is not a guide about becoming a “data scientist.” Instead, it focuses on building on the data practices you already use and showing how those practices can be strengthened through more transparent and sustainable workflows.\n\nPurpose & Training objectives\nThe purpose of this guide is to support individuals working with academic programmatic and assessment data in developing accurate, reproducible, and transparent data workflows using code-based tools. By introducing foundational data science concepts and the R programming language in an accessible way, this guide aims to strengthen institutional data practices while supporting the development of transferable analytical skills.\n\nObjective 1Objective 2Objective 3\n\n\nUnderstand the basic components of a data science environment.\n\n\nUse basic R code to summarize academic program and assessment data.\n\n\nExplain how code-based workflows improve reproducibility and efficiency.\n\n\n\n\n\nTarget Audience\nThis guide is intended for individuals working in academic institutions who regularly engage with programmatic, assessment, curricular, or institutional data and are interested in improving how that work is conducted.\nThis includes faculty, staff, administrators, and trainees who use data to support educational programs and want their analyses to be more accurate, reproducible, and efficient.\nThis guide is also designed for individuals who want to build transferable data skills by contributing to program-level work. The workflows and approaches presented here can be used to support academic programs while also providing experience that is applicable to broader research, evaluation, and professional contexts.\n\n\nPrerequisites\nYou do not need to be an expert in Excel or have any prior coding experience. You do need to be comfortable using a computer, familiar with basic Excel functions, and open to learning new tools and approaches.\nThis is not an Excel 101 course. Instead, it focuses on how and why to move beyond Excel and SPSS for more accurate, reproducible, and sustainable data workflows."
+  }
+]
